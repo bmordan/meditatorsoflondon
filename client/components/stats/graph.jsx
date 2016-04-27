@@ -31,7 +31,10 @@ Component.graphData = React.createClass({
   render() {
     let graph = this.props.sessions.map((data, i) => {
       let height
-      data.time ? height = (160/this.props.max[0].time) * data.time + 'px' : height = '1px'
+      if (data.time && data.time > 1)
+        height = (160/this.props.max[0].time) * data.time + 'px'
+      else
+        height = '1px'
 
       return <li key={ data._id } className="graph">
         <span style={{height: height}}></span>
