@@ -1,0 +1,5 @@
+settings.json
+config.push.json
+.DS_Store
+private/*
+node_modules

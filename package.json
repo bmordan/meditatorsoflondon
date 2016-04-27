@@ -1,0 +1,14 @@
+{
+  "name": "meditators-of-london",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "meteor run",
+    "test": "standard"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^0.14.8",
+    "react-addons-pure-render-mixin": "^0.14.8"
+  }
+}

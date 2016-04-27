@@ -1,0 +1,33 @@
+.container.container-timer {
+  width: 100%;
+  table {
+    margin: auto;
+    text-align: center;
+    input {
+      font-size: 0.8em;
+      width: 1.3em;
+      height: 1em;
+      border: transparent;
+      background-color: transparent;
+      border-bottom: solid 2px white;
+      color: white;
+      outline: none;
+      padding: 0;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2.9em;
+      font-weight: 100;
+    }
+  }
+  table.active {
+    tr:not(.timer) {opacity: 0.5;}
+  }
+  .timer {
+  	h1 {
+  	  font-size: 4em;
+      transform: scale(1, 2);
+      margin: 18px 0;
+  	}
+  }
+}

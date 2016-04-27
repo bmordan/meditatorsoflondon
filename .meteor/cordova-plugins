@@ -1,0 +1,3 @@
+cordova-plugin-insomnia@https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git#d1cebfefa12573f240a7d409670a781bcdf0eb79
+cordova-plugin-media@https://github.com/apache/cordova-plugin-media.git#cca41620d4e1370a1c81f60cf3172916f6772b2f
+cordova-plugin-meteor-webapp@https://github.com/meteor/cordova-plugin-meteor-webapp.git#dd2d61589c27fe41c56778cb9f7bfab41a612fbd

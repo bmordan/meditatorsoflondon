@@ -1,0 +1,28 @@
+.carousel {
+  height: 200px;
+  white-space: nowrap;
+  overflow-x: scroll;
+  ul, ol {
+    display: inline-block;
+  }
+  li.graph {
+    display: inline-block;
+    span {
+      background-color: white;
+      width: 3px;
+      margin: 0 1px;
+      display: inline-block;
+    }
+  }
+  table {
+    display: inline-block;
+    margin-left: 12px;
+    td:nth-child(odd) {
+      text-align: right;
+      opacity: 0.8;
+    }
+    td:nth-child(even) {
+      text-align: left;
+    }
+  }
+}
