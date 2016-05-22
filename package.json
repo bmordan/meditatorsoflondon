@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "start": "meteor run",
+    "start": "meteor run ios --settings settings.json --mobile-server http://meditatorsof.london",
     "test": "standard"
   },
   "dependencies": {
